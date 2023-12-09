@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 332.52 216.92">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clippath-11);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-14 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-15 {
+        clip-path: url(#clippath-6);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-5, .cls-16 {
+        fill: none;
+      }
+
+      .cls-17 {
+        clip-path: url(#clippath-7);
+      }
+
+      .cls-18 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-19 {
+        clip-path: url(#clippath-4);
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-9, .cls-20 {
+        fill: #7e011b;
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-21 {
+        clip-path: url(#clippath-9);
+      }
+
+      .cls-22 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-16 {
+        stroke: #ff675a;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2.59px;
+      }
+
+      .cls-23 {
+        clip-path: url(#clippath-3);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-24 {
+        clip-path: url(#clippath-8);
+      }
+
+      .cls-25 {
+        clip-path: url(#clippath-5);
+      }
+
+      .cls-26 {
+        clip-path: url(#clippath-10);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-20 {
+        font-family: Snicker-Bold, Snicker;
+        font-size: 49.35px;
+        font-weight: 700;
+      }
+
+      .cls-27 {
+        letter-spacing: -.08em;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-5" y="0" width="332.52" height="216.92"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-5" y="0" width="332.52" height="216.92"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <path class="cls-5" d="m46.98,0c-.88,0-1.55.59-1.95,1.91-3.7,12.26,9.62,23.16,10.68,34.76.64,7.01-4.66.62-10.34-5.78-4.08-4.59-8.35-9.18-10.76-8.81-5.42.82-12.31,24.73-.67,36.13,7.29,7.14,18.68,7.02,28.9,6.9,6.1-.07,11.79-.14,15.94,1.33,11.81,4.18,48.5,30.3,67.06,10.9,4.75-4.97,12.03-18.94-3.23-22.6-14.82-3.55-34.58.44-47.49-5.11-12.92-5.55-20.47-11.64-25.24-19.9C66.37,23.65,52.58.02,46.98,0h0Z"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="-140.14" y1="107.81" x2="-138.8" y2="107.81" gradientTransform="translate(12945.68 9985.69) scale(92.18 -92.18)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0b303"/>
+      <stop offset="0" stop-color="#f0b303"/>
+      <stop offset="1" stop-color="#ff675a"/>
+    </linearGradient>
+    <clipPath id="clippath-3">
+      <path class="cls-5" d="m16.43,63.11c-3.17,1.58.24,4.98-8.29,28.9-8.53,23.92,10.3,47.69,21.57,54.8,13.91,8.79,17.17,25.31,18.49,36.31,1.96,16.33,4.56,32.92,38.51,33.75,33.95.82,48.63-11.77,64.27-24.94,15.65-13.17,16.5-32.47,13.43-30.15-3.07,2.32-11,13.87-21.6,16.39-12.65,3.01-22.61-4.55-29.9-14.85-7.29-10.29-2.42-31.91-34.78-35.88-42.38-5.19-57.26-64.39-61.5-64.39-.07,0-.13.01-.2.05"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="-140.55" y1="107.81" x2="-139.2" y2="107.81" gradientTransform="translate(16674.6 12926.13) scale(118.6 -118.6)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-4">
+      <path class="cls-5" d="m158.47,152.47c0,2.75,2.23,4.99,4.99,4.99s4.99-2.23,4.99-4.99-2.23-4.99-4.99-4.99-4.99,2.23-4.99,4.99"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-3" x1="-117.09" y1="96.17" x2="-115.74" y2="96.17" gradientTransform="translate(1025.28 864.42) scale(7.4 -7.4)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-5">
+      <path class="cls-5" d="m162.5,186.58c0,2.75,2.23,4.99,4.99,4.99s4.99-2.23,4.99-4.99-2.23-4.99-4.99-4.99-4.99,2.23-4.99,4.99"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-4" x1="-116.95" y1="94.98" x2="-115.6" y2="94.98" gradientTransform="translate(1028.27 889.73) scale(7.4 -7.4)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-6">
+      <path class="cls-5" d="m7.04,51.22c0,2.75,2.23,4.99,4.99,4.99s4.99-2.23,4.99-4.99-2.23-4.99-4.99-4.99-4.99,2.23-4.99,4.99"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-5" x1="-122.36" y1="99.7" x2="-121.02" y2="99.7" gradientTransform="translate(912.93 789.3) scale(7.4 -7.4)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-7">
+      <path class="cls-5" d="m0,69.71c0,2.75,2.23,4.99,4.99,4.99s4.99-2.23,4.99-4.99-2.23-4.99-4.99-4.99-4.99,2.23-4.99,4.99"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-6" x1="-122.61" y1="99.05" x2="-121.26" y2="99.05" gradientTransform="translate(907.7 803.01) scale(7.4 -7.4)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-8">
+      <path class="cls-5" d="m29.57,160.79c1.47,5.28,1.14,17.64,3.78,21.46,2.64,3.82,10.9,14.64,8.36,7.48-2.22-6.27.66-22.12-11.56-33.34,0,0-.13-.06-.3-.06-.51,0-1.39.5-.29,4.46"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-7" x1="-126.46" y1="98.34" x2="-125.11" y2="98.34" gradientTransform="translate(1262.57 1135.83) scale(9.75 -9.75)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-9">
+      <path class="cls-5" d="m72.85,22.03c5.14,9.16,19.82,22.35,28.61,21.05,5.57-.83,6.58-3.93,2.18-7.2-4.4-3.28-9.46-2.72-15.96-5.15-4.76-1.78-13.81-10.54-15.29-10.54-.37,0-.27.54.46,1.85"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-8" x1="-135.44" y1="106.15" x2="-134.09" y2="106.15" gradientTransform="translate(3509.99 2726.63) scale(25.38 -25.38)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-10">
+      <path class="cls-5" d="m178.61,141.86c-4.94.3-.99,11.11-1.21,17.94-.22,6.82-5.68,11.91-7.6,14.83-4.72,7.18,14.23-7.76,17.29-19.23,1.74-6.54-2.76-13.55-8.11-13.55-.12,0-.24,0-.37.01"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-9" x1="-128.19" y1="101.53" x2="-126.85" y2="101.53" gradientTransform="translate(1921.08 1549.4) scale(13.67 -13.67)" xlink:href="#linear-gradient"/>
+    <clipPath id="clippath-11">
+      <rect class="cls-5" y="0" width="332.52" height="216.92"/>
+    </clipPath>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g id="PennyJuice_Logo">
+      <g class="cls-22">
+        <polygon class="cls-9" points="61 181.41 38.21 61.6 147.18 61.6 124.76 181.41 61 181.41"/>
+        <path class="cls-9" d="m145.1,63.33l-21.78,116.36h-60.9l-22.13-116.36h104.81Zm4.15-3.45H36.13l23.44,123.25h66.62l23.07-123.25Z"/>
+        <g class="cls-18">
+          <path class="cls-6" d="m92.69,150.01c-15.72,0-28.5-12.78-28.5-28.5s12.79-28.5,28.5-28.5,28.5,12.79,28.5,28.5-12.79,28.5-28.5,28.5"/>
+          <path class="cls-9" d="m92.69,94.73c14.77,0,26.78,12.01,26.78,26.78s-12.01,26.78-26.78,26.78-26.78-12.01-26.78-26.78,12.01-26.78,26.78-26.78m0-3.45c-16.69,0-30.23,13.53-30.23,30.23s13.53,30.23,30.23,30.23,30.23-13.53,30.23-30.23-13.53-30.23-30.23-30.23"/>
+        </g>
+        <g class="cls-14">
+          <rect class="cls-2" x="22.29" y="0" width="135.59" height="96.74"/>
+        </g>
+        <g class="cls-23">
+          <rect class="cls-7" x="-.38" y="63.06" width="167.87" height="154.65"/>
+        </g>
+        <g class="cls-19">
+          <rect class="cls-10" x="158.47" y="147.48" width="9.98" height="9.98"/>
+        </g>
+        <g class="cls-25">
+          <rect class="cls-13" x="162.5" y="181.59" width="9.98" height="9.98"/>
+        </g>
+        <g class="cls-15">
+          <rect class="cls-4" x="7.04" y="46.23" width="9.98" height="9.98"/>
+        </g>
+        <g class="cls-17">
+          <rect class="cls-3" y="64.72" width="9.98" height="9.98"/>
+        </g>
+        <g class="cls-24">
+          <rect class="cls-8" x="28.47" y="156.34" width="15.77" height="40.55"/>
+        </g>
+        <g class="cls-21">
+          <rect class="cls-12" x="72.02" y="20.18" width="36.02" height="24.21"/>
+        </g>
+        <g class="cls-26">
+          <rect class="cls-11" x="165.07" y="141.85" width="23.75" height="39.96"/>
+        </g>
+        <g class="cls-1">
+          <path class="cls-16" d="m72.92,121.51c0-10.92,8.85-19.78,19.78-19.78s19.77,8.85,19.77,19.78"/>
+          <text class="cls-20" transform="translate(192.51 122.96)"><tspan class="cls-27" x="0" y="0">P</tspan><tspan x="30.45" y="0">enny</tspan></text>
+        </g>
+        <text class="cls-20" transform="translate(201.57 170.38)"><tspan x="0" y="0">Juice</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

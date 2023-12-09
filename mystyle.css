@@ -1,0 +1,754 @@
+@charset "utf-8";
+/*css*/
+/* yellow hex codes solid = F0B303 , 52% tint = F7D77C , 30% tint = FAE8B3 */
+/* red hex codes solid = FF675A , 52% tint = FFB0A9 , 30% tint = FFD1CD */
+
+
+/*TO DO
+    Add a hover state to all buttons to create some animation/movement
+    make add to cart buttons non functional submit buttons - no more scroll to top 
+    create cart tab that doesnt really work, only looks good
+    add filter drop down to flavors page (artifically colored vs non-colored)
+*/
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #F7D77C;
+    margin: 0px;
+}
+
+.header{
+    margin: 20px 30px 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: baseline;
+}
+
+.header button{
+    background: none;
+    border: 0px;
+    outline: none;
+}
+
+a{
+    font-weight: 700;
+    text-decoration: none;
+    text-align: right;
+    color: #F0B303;
+}
+
+a:hover {
+    color: #FAE8B3;
+}
+
+#navbar ul{
+    text-align: center;
+    font-size: 25px;
+}
+
+nav li{
+    display: inline;
+    padding: 0px 40px;
+    font-size: 30px;
+}
+
+#home-onstate a{
+    color: #FAE8B3;
+}
+
+#flavor-onstate a{
+    color: #FAE8B3;
+}
+
+#about-onstate a{
+    color: #FAE8B3;
+}
+
+#faq-onstate a{
+    color: #FAE8B3;
+}
+
+#contact-onstate a{
+    color: #FAE8B3;
+}
+
+#ingredients-onstate a{
+    color: #FAE8B3;
+}
+/* homepage styles */
+
+.squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.squares img {
+    align-self: center;
+    display: block;
+}
+
+.flavor-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+    width: 400px;
+}
+
+.about-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 400px;
+}
+
+.faq-square {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 15px;
+    width: 400px;
+}
+
+
+/*.square-info {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    justify-content: space-between;
+} */
+
+.squares button {
+    border: 0px;
+    outline: none;
+    background: none;
+    
+}
+
+.flavor-cta {
+    display: flex;
+    max-width: 300px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-cta {
+    display: flex;
+    max-width: 300px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.faq-cta {
+    display: flex;
+    max-width: 300px; 
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+    
+    
+.new-flavor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0px 100px;
+    padding-bottom: 50px;
+    
+}
+
+.new-flavor img{
+    align-self: center;
+    margin-bottom: 15px;
+}
+
+.new-flavor-cta button {
+    border: 0px;
+    outline: none;
+    background: none;
+}
+
+.flavor-desc{
+    display: flex;
+    flex-direction: column;
+    
+    max-width: 600px;
+}
+
+.flavor-desc h2{
+    background-color: #FFB0A9;
+    padding: 20px;
+    margin: 0px;
+}
+
+.flavor-desc img{
+    justify-content: flex-end;
+    align-self: center;
+}
+
+.new.flavor-cta {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* about page styles */
+
+.about-head {
+    display: flex;
+    background-color: #F0B303; 
+    padding: 30px;
+    align-items: center;
+}
+
+.about-head img {
+    border-radius: 300px;
+}
+
+.about-head h1 {
+    padding-left: 50px;
+    font-size: 5em;
+    color: black;
+}
+
+.about-text {
+    background-color: #FFB0A9;
+    padding: 30px;
+    color: black;
+    Font-weight: 500;
+    font-size: 1em;
+}
+
+.about-text p {
+    max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.about-info {
+    padding: 30px;
+    color: black;
+}
+
+.about-info h2 {
+    font-size: 3em;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.about-final-img {
+    background-color: #FAE8B3;
+}
+
+/* contact page styles */
+
+.contact-head {
+    display: flex;
+    background-color: #F0B303; 
+    padding: 30px;
+    align-items: center;
+}
+
+.contact-head h1 {
+    padding-left: 50px;
+    font-size: 5em;
+    color: black;
+}
+
+.contact-head img{
+    border-radius: 400px;
+}
+
+.contact-text{
+    background-color: #FFB0A9;
+    padding: 30px;
+    color: black;
+    Font-weight: 500;
+    font-size: 1em;
+}
+.contact-text p {
+ max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+
+/* faq page styles */
+
+.faq-head {
+    display: flex;
+    background-color: #F0B303; 
+    padding: 30px;
+    align-items: center;
+}
+
+.faq-head h1 {
+    padding-left: 50px;
+    font-size: 4em;
+    color: black;
+}
+
+.faq-head img{
+    border-radius: 400px;
+}
+
+.faq-text{
+    background-color: #FFB0A9;
+    padding: 30px;
+    color: black;
+    Font-weight: 500;
+    font-size: 1em;
+}
+.faq-text p {
+ max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.faqlist {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    max-width: 800px;
+}
+
+.faqlist-resumed {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    max-width: 800px;
+}
+
+
+/* flavors page styles */
+.flavor-head {
+    display: flex;
+    background-color: #F0B303; 
+    padding: 30px;
+    align-items: center;
+}
+
+.flavor-head h1 {
+    padding-left: 50px;
+    font-size: 5em;
+    color: black;
+}
+
+.flavor-head img{
+    border-radius: 400px;
+}
+
+.flavor-text{
+    background-color: #FFB0A9;
+    padding: 30px;
+    color: black;
+    Font-weight: 500;
+    font-size: 1em;
+}
+.flavor-text p {
+ max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.flavors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flavors button {
+    border: none;
+    border-radius: 10px;
+    background-color: #F7D77C;
+    padding: 10px;
+}
+
+.flavors button a {
+    color: black;
+}
+
+.flavors button a:hover {
+    
+}
+
+.blueberry-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/blueberry-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.banana-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/banana-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.citrus-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/mixed-citrus-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.strawberry-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/strawberry-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.peach-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/peach-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.berry-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/mixed-berry-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.grape-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/wgrape-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.lemon-lime-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/lemonlime-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.strawberry-banana-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/strawberry-banana-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.raspberry-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/raspberry-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.orange-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/orange-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.cranberry-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/cranberry-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.gapple-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/gapple-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.mango-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/mango-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+.watermelon-flavor{
+    width: 420px;
+    height: 140px;
+    background-image: url(Images/watermelon-flavor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 280px;
+}
+
+/* Ingredients page styles */
+.ingredient-head {
+    display: flex;
+    background-color: #F0B303; 
+    padding: 30px;
+    align-items: center;
+}
+
+.ingredient-head img {
+    border-radius: 300px;
+}
+
+.ingredient-head h1 {
+    padding-left: 50px;
+    font-size: 5em;
+    color: black;
+}
+
+.ingredient-text{
+    background-color: #FFB0A9;
+    padding: 30px;
+    color: black;
+    Font-weight: 500;
+    font-size: 1em;
+}
+
+.ingredient-text p {
+ max-width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.ingredient-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FAE8B3;
+    margin: 50px;
+    padding: 30px;
+}
+
+.three-row-section {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.ingredients1{
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.ingredients1 img {
+    margin-bottom: 15px;
+}
+
+.green-goodness{
+    background-color: #FFB0A9;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    
+}
+
+.green-goodness h1{
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.green-list {
+    margin-bottom: 15px;
+}
+
+.ingredients2{
+    max-width: 300px;
+    margin-bottom: 15px;
+}
+
+.ingredients2 img {
+    margin-bottom: 15px;
+}
+
+.sweet-list {
+    margin-bottom: 15px;
+}
+
+.sweet{
+    background-color: #FFB0A9;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.sweet h1{
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.third-column{
+    background-color: #FFB0A9;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.three-row-section img {
+    margin-bottom: 15px;
+}
+
+.variety h1{
+    margin: 0px;
+    padding-bottom: 15px;
+}
+.variety-list {
+    margin-bottom: 15px;
+}
+
+.tart h1{
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.tart-list {
+    margin-bottom: 15px;
+}
+
+.spice h1{
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+.spice-list {
+    margin-bottom: 15px;
+}
+
+
+/* Contact page styles */
+
+.contactus{
+    margin: 50px;
+    text-align: center;
+    
+}
+
+form{
+    margin: 50px 100px;
+    background-color: #FFB0A9;
+    padding: 50px;
+    border-radius: 30px;
+    
+}
+ 
+input[type=text], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    background-color: #FFD1CD;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type=submit], select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    display: inline-block;
+    color: #FFB0A9;
+    background-color: #FF675A;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #F7D77C;
+    color: #F0B303;
+}
+
+
+
+/* footer styles */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FAE8B3;
+    color: #F0B303;
+    margin: 0px;
+    padding: 5px 15px;
+}
+
+footer h4{
+    text-align: center;
+}
+
+footer button{
+    border: 0px;
+    outline: none;
+    background: none;
+}
+
+
+
